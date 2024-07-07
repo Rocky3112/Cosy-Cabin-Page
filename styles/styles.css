@@ -314,6 +314,27 @@
     left: -30px;  
     bottom: 20px;
 }
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; 
+    padding: 80px 0; 
+}
+.arrowIcon{
+    height: 25px;
+    width: 30px;
+}
+.IconRight{
+    background-color: #75FF69;
+    border-radius: 100%;
+    padding: 5px;
+}
+.IconLeft{
+    background-color: #1B3936;
+    border-radius: 100%;
+    padding: 5px;
+}
 /* time Section */
 .timeContainer{
     padding: 50px 180px;
@@ -329,7 +350,7 @@
     font-size: 12px;
     padding-bottom: 40px; 
 }
-button{
+.talk{
     padding: 12px 25px;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -339,4 +360,38 @@ button{
     font-size: 12px;
     font-weight: 700;
     
+}
+/* Footer */
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.left-Side{
+    width: 25%;
+    background-color: #75FF69;
+    padding: 70px 25px 25px 90px;
+}
+.linkPic{
+    height: 100px;
+    
+}
+.right-Side{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 70px 25px 25px 90px; 
+    background-color: #1B3936;
+}
+.footerBottom{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 10px 0;
 }
