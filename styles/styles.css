@@ -259,3 +259,84 @@
     text-transform: capitalize;
     padding: 50px 70px;
   }
+.signup{
+    background-color: #1B3936;
+    margin-top: 20px;
+}
+.ctaContainer{
+    padding:70px 80px; 
+}
+.ctaPic{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+/* Experience section */
+.experience{
+    display: flex ;
+    align-items: end;
+    gap: 150px;
+    padding: 60px 100px;
+}
+.exp-Title{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.exp-Desc{
+    font-size: 14px;
+}
+.expContainer{
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.expPic{
+    width: 220px;
+    height: 280px;
+   
+}
+.expPic1{
+    position: relative;
+}
+.expPic2{
+    position: relative;
+}
+.expPic3{
+    position: relative;
+}
+
+.expTest{
+    width: 220px;
+    height: 90px;
+    position: absolute;
+    left: -30px;  
+    bottom: 20px;
+}
+/* time Section */
+.timeContainer{
+    padding: 50px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.timeTitle{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.timeTitle2{
+    font-size: 12px;
+    padding-bottom: 40px; 
+}
+button{
+    padding: 12px 25px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 1px solid #1B3936;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
